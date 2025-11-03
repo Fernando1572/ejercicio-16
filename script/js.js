@@ -4,7 +4,7 @@ let conversion = 0;
 async function Monedas() {
   let myPromise = new Promise(function (resolve) {
     let req = new XMLHttpRequest();
-    req.open("GET", "http://18.222.133.113/ejercicio16/index.php");
+    req.open("GET", "http://18.222.133.113/ejercicio16/index.php"); //No sirve ahora :|
 
     req.onload = function () {
       if (req.status == 200) {
